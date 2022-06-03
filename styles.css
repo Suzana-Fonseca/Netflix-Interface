@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+#container {
+  background-image: url('./assets/background.jpeg');
+  padding-bottom: 140px;
+}
+
+#logo-netflix {
+  height: 36px;
+}
+
+#button-entrar {
+  background: #e50914;
+  font-size: 16px;
+  padding: 7px 17px;
+  border: none;
+  border-radius: 3px;
+  float: right;
+  cursor: pointer;
+}
+
+#button-entrar:hover {
+  opacity: 0.8;
+}
+
+#header {
+  padding: 28px 56px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  width: 600px;
+  margin: 130px auto 0 auto;
+}
+
+#subtitle {
+  font-size: 26px;
+  text-align: center;
+  margin-top: 14px;
+}
+
+#subtitle-two {
+  font-size: 19.2px;
+  text-align: center;
+  margin-top: 28px;
+}
+
+input {
+  width: 450px;
+  padding-left: 10px;
+  font-size: 16px;
+  color: #8c8c8c;
+  outline: none;
+}
+
+#button-email {
+  width: 183px;
+  background-color: #e50914;
+  border: 0;
+  font-size: 26px;
+  cursor: pointer;
+}
+#button-email:hover {
+  opacity: 0.8;
+}
+
+#arrow {
+  height: 17px;
+  margin-left: 5px;
+}
+
+#form {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  height: 60px;
+}
+
+#footer {
+  background-color: #000000;
+  border-top: 10px solid #303030;
+  padding: 70px 0;
+}
+
+h2 {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#button-questions {
+  width: 815px;
+  background-color: #303030;
+  height: 72px;
+  border: 0;
+  font-size: 26px;
+  text-align: start;
+  padding: 20px 35px 20px 31px;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+}
+
+#button-questions2 {
+  width: 815px;
+  background-color: #303030;
+  height: 72px;
+  border: 0;
+  font-size: 26px;
+  text-align: start;
+  padding: 20px 35px 20px 31px;
+  display: block;
+  margin: 9px auto 0 auto;
+  cursor: pointer;
+}
+
+#button-questions3 {
+  width: 815px;
+  background-color: #303030;
+  height: 72px;
+  border: 0;
+  font-size: 26px;
+  text-align: start;
+  padding: 20px 35px 20px 31px;
+  display: block;
+  margin: 9px auto 0 auto;
+  cursor: pointer;
+}
+
+#button-questions4 {
+  width: 815px;
+  background-color: #303030;
+  height: 72px;
+  border: 0;
+  font-size: 26px;
+  text-align: start;
+  padding: 20px 35px 20px 31px;
+  display: block;
+  margin: 9px auto 0 auto;
+  cursor: pointer;
+}
+
+#button-questions5 {
+  width: 815px;
+  background-color: #303030;
+  height: 72px;
+  border: 0;
+  font-size: 26px;
+  text-align: start;
+  padding: 20px 35px 20px 31px;
+  display: block;
+  margin: 9px auto 0 auto;
+  cursor: pointer;
+}
+
+#button-questions6 {
+  width: 815px;
+  background-color: #303030;
+  height: 72px;
+  border: 0;
+  font-size: 26px;
+  text-align: start;
+  padding: 20px 35px 20px 31px;
+  display: block;
+  margin: 9px auto 0 auto;
+  cursor: pointer;
+}
+
+#img-question {
+  float: right;
+  margin-top: 6px;
+  transform: rotate(45deg);
+}
+#img-question-rotate {
+  float: right;
+  margin-top: 6px;
+  transform: rotate(90deg);
+}
+
+#img-question2 {
+  float: right;
+  margin-top: 6px;
+  transform: rotate(45deg);
+}
+#img-question-rotate2 {
+  float: right;
+  margin-top: 6px;
+  transform: rotate(90deg);
+}
+
+#img-question3 {
+  float: right;
+  margin-top: 6px;
+  transform: rotate(45deg);
+}
+#img-question-rotate3 {
+  float: right;
+  margin-top: 6px;
+  transform: rotate(90deg);
+}
+
+#img-question4 {
+  float: right;
+  margin-top: 6px;
+  transform: rotate(45deg);
+}
+#img-question-rotate4 {
+  float: right;
+  margin-top: 6px;
+  transform: rotate(90deg);
+}
+
+#img-question5 {
+  float: right;
+  margin-top: 6px;
+  transform: rotate(45deg);
+}
+#img-question-rotate5 {
+  float: right;
+  margin-top: 6px;
+  transform: rotate(90deg);
+}
+
+#img-question6 {
+  float: right;
+  margin-top: 6px;
+  transform: rotate(45deg);
+}
+#img-question-rotate6 {
+  float: right;
+  margin-top: 6px;
+  transform: rotate(90deg);
+}
+
+#answers {
+  width: 815px;
+  background-color: #303030;
+  margin: 1px auto 0 auto;
+  padding: 35px;
+  font-size: 26px;
+  display: none;
+}
+
+#answers2 {
+  width: 815px;
+  background-color: #303030;
+  margin: 1px auto 0 auto;
+  padding: 35px;
+  font-size: 26px;
+  display: none;
+}
+
+#answers3 {
+  width: 815px;
+  background-color: #303030;
+  margin: 1px auto 0 auto;
+  padding: 35px;
+  font-size: 26px;
+  display: none;
+}
+
+#answers4 {
+  width: 815px;
+  background-color: #303030;
+  margin: 1px auto 0 auto;
+  padding: 35px;
+  font-size: 26px;
+  display: none;
+}
+
+#answers5 {
+  width: 815px;
+  background-color: #303030;
+  margin: 1px auto 0 auto;
+  padding: 35px;
+  font-size: 26px;
+  display: none;
+}
+
+#answers6 {
+  width: 815px;
+  background-color: #303030;
+  margin: 1px auto 0 auto;
+  padding: 35px;
+  font-size: 26px;
+  display: none;
+}

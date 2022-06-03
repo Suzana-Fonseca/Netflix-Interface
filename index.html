@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Netflix</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="header">
+        <img id="logo-netflix" src="./assets/netflix.svg" alt="logo Netflix" />
+        <button id="button-entrar">Entrar</button>
+      </div>
+
+      <div>
+        <h1>Filmes, séries e muito mais. Sem limites.</h1>
+        <p id="subtitle">Assista onde quiser. Cancele quando quiser.</p>
+        <p id="subtitle-two">
+          Pronto para assistir? Informe seu email para criar ou reiniciar sua
+          assinatura.
+        </p>
+
+        <div id="form">
+          <input type="email" placeholder="Email" />
+          <button id="button-email">
+            Vamos lá
+            <img
+              id="arrow"
+              src="./assets/seta.svg
+                    "
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <h2>Perguntas frequentes</h2>
+
+      <button id="button-questions">
+        O que é a Netflix? <img id="img-question" src="./assets/fechar.svg" />
+      </button>
+      <div id="answers">
+        <p>
+          A Netflix é um serviço de transmissão online que oferece uma ampla
+          variedade de séries, filmes e documentários premiados em milhares de
+          aparelhos conectados à internet.
+        </p>
+        <br />
+        <p>
+          Você pode assistir a quantos filmes e séries quiser, quando e onde
+          quiser, sem comerciais – tudo por um preço mensal bem acessível. Aqui
+          você sempre encontra novidades. A cada semana, adicionamos novas
+          séries e filmes.
+        </p>
+      </div>
+
+      <button id="button-questions2">
+        Quanto custa a Netflix?
+        <img id="img-question2" src="./assets/fechar.svg" />
+      </button>
+      <div id="answers2">
+        <p>
+          Assista à Netflix no seu celular, tablet, Smart TV, notebook ou
+          aparelho de streaming por uma taxa mensal única. Os planos variam de
+          R$25,90 a R$55,90 por mês. Sem contrato nem taxas extras.
+        </p>
+      </div>
+
+      <button id="button-questions3">
+        Onde posso assistir?
+        <img id="img-question3" src="./assets/fechar.svg" />
+      </button>
+      <div id="answers3">
+        <p>
+          Assista à Netflix no seu celular, tablet, Smart TV, notebook ou
+          aparelho de streaming por uma taxa mensal única. Os planos variam de
+          R$25,90 a R$55,90 por mês. Sem contrato nem taxas extras.
+        </p>
+        <br />
+        <p>
+          Você também pode baixar a sua série favorita com o aplicativo Netflix
+          para iOS, Android ou Windows 10. Use downloads para levar a Netflix
+          para onde quiser sem precisar de conexão com a Internet. Leve a
+          Netflix com você para qualquer lugar.
+        </p>
+      </div>
+
+      <button id="button-questions4">
+        Como faço para cancelar?
+        <img id="img-question4" src="./assets/fechar.svg" />
+      </button>
+      <div id="answers4">
+        <p>
+          A Netflix é flexível. Não há contratos nem compromissos. Você pode
+          cancelar a sua conta na internet com apenas dois cliques. Não há taxa
+          de cancelamento – você pode começar ou encerrar a sua assinatura a
+          qualquer momento.
+        </p>
+      </div>
+
+      <button id="button-questions5">
+        O que eu posso assistir na Netflix?
+        <img id="img-question5" src="./assets/fechar.svg" />
+      </button>
+      <div id="answers5">
+        <p>
+          A Netflix tem um grande catálogo de filmes, documentários, séries,
+          originais Netflix premiados e muito mais. Assista o quanto quiser,
+          quando quiser.
+        </p>
+      </div>
+
+      <button id="button-questions6">
+        A Netflix é adequada para crianças?
+        <img id="img-question6" src="./assets/fechar.svg" />
+      </button>
+      <div id="answers6">
+        <p>
+          A experiência infantil da Netflix faz parte da sua assinatura para que
+          as crianças se divirtam em seu próprio espaço com séries e filmes
+          familiares sob a supervisão dos pais.
+        </p>
+        <br />
+        <p>
+          O recurso de controle dos pais, incluso nos perfis para crianças e
+          protegido por PIN, permite restringir a classificação etária do
+          conteúdo que as crianças podem ver e bloquear títulos específicos que
+          você não quer que elas assistam.
+        </p>
+      </div>
+    </div>
+  </body>
+
+  <script>
+    // QUESTION 1
+
+    let questions = document.getElementById('button-questions')
+    let menu = document.getElementById('answers')
+    let icon = document.getElementById('img-question')
+
+    function openClose() {
+      if (menu.style.display == 'none') {
+        menu.style.display = 'block'
+        icon.id = 'img-question-rotate'
+      } else {
+        menu.style.display = 'none'
+        icon.id = 'img-question'
+      }
+    }
+
+    questions.addEventListener('click', openClose)
+
+    // QUESTION 2
+
+    let questions2 = document.getElementById('button-questions2')
+    let menu2 = document.getElementById('answers2')
+    let icon2 = document.getElementById('img-question2')
+
+    function openClose2() {
+      if (menu2.style.display == 'none') {
+        menu2.style.display = 'block'
+        icon2.id = 'img-question-rotate2'
+      } else {
+        menu2.style.display = 'none'
+        icon2.id = 'img-question2'
+      }
+    }
+
+    questions2.addEventListener('click', openClose2)
+
+    // QUESTION 3
+
+    let questions3 = document.getElementById('button-questions3')
+    let menu3 = document.getElementById('answers3')
+    let icon3 = document.getElementById('img-question3')
+
+    function openClose3() {
+      if (menu3.style.display == 'none') {
+        menu3.style.display = 'block'
+        icon3.id = 'img-question-rotate3'
+      } else {
+        menu3.style.display = 'none'
+        icon3.id = 'img-question3'
+      }
+    }
+
+    questions3.addEventListener('click', openClose3)
+
+    // QUESTION 4
+
+    let questions4 = document.getElementById('button-questions4')
+    let menu4 = document.getElementById('answers4')
+    let icon4 = document.getElementById('img-question4')
+
+    function openClose4() {
+      if (menu4.style.display == 'none') {
+        menu4.style.display = 'block'
+        icon4.id = 'img-question-rotate4'
+      } else {
+        menu4.style.display = 'none'
+        icon4.id = 'img-question4'
+      }
+    }
+
+    questions4.addEventListener('click', openClose4)
+
+    // QUESTION 5
+
+    let questions5 = document.getElementById('button-questions5')
+    let menu5 = document.getElementById('answers5')
+    let icon5 = document.getElementById('img-question5')
+
+    function openClose5() {
+      if (menu5.style.display == 'none') {
+        menu5.style.display = 'block'
+        icon5.id = 'img-question-rotate5'
+      } else {
+        menu5.style.display = 'none'
+        icon5.id = 'img-question5'
+      }
+    }
+
+    questions5.addEventListener('click', openClose5)
+
+    // QUESTION 6
+
+    let questions6 = document.getElementById('button-questions6')
+    let menu6 = document.getElementById('answers6')
+    let icon6 = document.getElementById('img-question6')
+
+    function openClose6() {
+      if (menu6.style.display == 'none') {
+        menu6.style.display = 'block'
+        icon6.id = 'img-question-rotate6'
+      } else {
+        menu6.style.display = 'none'
+        icon6.id = 'img-question6'
+      }
+    }
+
+    questions6.addEventListener('click', openClose6)
+  </script>
+</html>
